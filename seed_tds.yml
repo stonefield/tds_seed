@@ -1,6 +1,6 @@
 # This file describes the seeding for TDS in integration tests
 ---
-TDS::Config:
+TDS::Configuration:
 - name: default
   source: default source
   destination: default destination
