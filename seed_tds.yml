@@ -1,0 +1,22 @@
+# This file describes the seeding for TDS in integration tests
+---
+TDS::Config:
+- name: default
+  source: default source
+  destination: default destination
+- name: alternative
+  source: alternative source
+  destination: alternative destination
+- name: combo
+  source: default source
+  destination: alternative destination
+TDS::Source:
+- name: default source
+  description: This is the default source
+- name: alternative source
+  description: This is the alternative source
+TDS::Destination:
+- name: default destination
+  description: This is the default destination
+- name: alternative destination
+  description: This is the alternative destination
